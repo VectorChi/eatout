@@ -1,0 +1,19 @@
+:root {
+  --black-main: #1a1a1a;
+  --white-main: #fefefe;
+}
+
+/* layouts */
+.flex-row,
+.flex-col {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+/* buttons */
