@@ -17,3 +17,24 @@
 }
 
 /* buttons */
+
+.pry-btn-sml,
+.pry-btn-big {
+  border-radius: 0.5625rem;
+  background: #1a1a1a;
+  color: #fefefe;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.87rem;
+  font-weight: 500;
+}
+
+.pry-btn-big {
+  padding: 0.875rem 0.75rem;
+}
+.pry-btn-sml {
+  padding: 0.6rem 0.75rem;
+}
