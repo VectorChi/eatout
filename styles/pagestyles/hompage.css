@@ -77,3 +77,34 @@
     }
   }
 }
+
+.trending_restaurants {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3rem;
+  column-gap: 3rem;
+  margin: 0 auto;
+  width: 85%;
+  margin-top: 8rem;
+}
+
+.rest_card {
+  gap: 1rem;
+}
+.ph-bookmark {
+  font-size: 1.5rem;
+}
+.ph-star {
+  font-size: 1.2rem;
+}
+
+.rest_name_wrapper,
+.rating_wrapper {
+  align-items: center;
+}
+
+.rest_name {
+  font-size: 1.4rem;
+  letter-spacing: -0.045rem;
+  font-weight: 500;
+}
