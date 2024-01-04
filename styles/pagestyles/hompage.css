@@ -77,15 +77,23 @@
     }
   }
 }
-
+.trending_wrapper{
+    margin: 0 auto;
+        width: 85%;
+        margin-top: 8rem;
+}
+.list-title{
+    align-items: center;
+    margin-bottom: 3rem;
+}
 .trending_restaurants {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 3rem;
   column-gap: 3rem;
-  margin: 0 auto;
-  width: 85%;
-  margin-top: 8rem;
+}
+.trending_restaurants img{
+    width: 100%;
 }
 
 .rest_card {

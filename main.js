@@ -54,7 +54,7 @@ const restaurants = [
     restaurant_name: "Kilimanjaro",
     thumbnail: "./Images/restaurant4.png",
     reservation_req: false,
-    rating: 5.0,
+    rating: "5.0",
     address: "5 Lateef Jakande Street",
     state: "Lagos",
     country: "Nigeria",
